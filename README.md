@@ -46,7 +46,7 @@ chmod +x /usr/local/bin/transmogrifier-monitor.sh
 
 <details markdown=1><summary markdown="span">Details</summary>
 
-```
+``` sh
 #!/bin/bash
 
 # Start script on boot
