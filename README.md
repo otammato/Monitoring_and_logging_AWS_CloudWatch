@@ -58,3 +58,5 @@ sudo bash transmogrifier-monitor.sh &
 
 ```
 </details>
+
+#### The logs then can be sent to AWS CloudWatch by installing the agent to the controlled machine for metrics monitoring and triggering notifications if needed
