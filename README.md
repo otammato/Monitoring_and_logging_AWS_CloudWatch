@@ -17,7 +17,9 @@ Write a script in the language of your choosing, which will be used to achieve t
 To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch these two scripts:
 
 <br>
+
 #### 1. Main script
+
 <br><br>
 <details markdown=1><summary markdown="span">Details</summary>
 
