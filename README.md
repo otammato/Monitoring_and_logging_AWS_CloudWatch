@@ -32,8 +32,8 @@ cat > /usr/local/bin/transmogrifier-monitor.sh << EOF
 #!/bin/bash
 
 while true; do
-  printf "%s %s %s\n%s\n" "Processes lists for transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "$(ps aux | grep root)" >> /var/log/access.log
-  printf "%s %s %s\n%s\n" "Flle list for transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "(ls -l /home/ec2-user/Transmogrified/)" >> /var/log/transmogrifier/access.log
+  printf "%s %s %s\n%s\n" "Processes lists for transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "$(ps aux | grep root)" >> /var/log/transmogrifier_process.log
+  printf "%s %s %s\n%s\n" "Flle list of transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "(ls -l /home/ec2-user/Transmogrified/)" >> /var/log/transmogrifier/transmogrifier_files.log
   sleep 60
 done
 
