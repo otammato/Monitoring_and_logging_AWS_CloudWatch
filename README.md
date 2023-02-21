@@ -16,7 +16,7 @@ Write a script in the language of your choosing, which will be used to achieve t
 
 ## Solution:
 
-To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch these two scripts:
+To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch this script:
 
 
 #### 1. Script transmogrifier-monitor.sh to write in intervals to .log files
