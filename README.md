@@ -31,10 +31,11 @@ cat > /usr/local/bin/transmogrifier-monitor.sh << EOF
 
 #!/bin/bash
 while true; do
-  ps aux | grep transmogrifier >> /var/log/transmogrifier/access.log
-  ls -l /path/to/Transmogrified/ >> /var/log/transmogrifier/access.log
+  echo -e "$(hostname) $(date +"%Y-%m-%d %H:%M:%S")\n$(ps aux | grep transmogrifier)\n" >> /var/log/transmogrifier/access.log
+  echo -e "$(hostname) $(date +"%Y-%m-%d %H:%M:%S")\n$(ls -l /path/to/Transmogrified/)\n" >> /var/log/transmogrifier/access.log
   sleep 60
 done
+
 EOF
 ```
 ```
