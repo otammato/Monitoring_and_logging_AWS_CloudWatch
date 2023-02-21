@@ -36,7 +36,8 @@ while true; do
   sleep 60
 done
 EOF
-
+```
+```
 chmod +x /usr/local/bin/transmogrifier-monitor.sh
 ```
 </details>
@@ -74,5 +75,8 @@ systemctl enable transmogrifier-monitor.service
 # Start the service immediately
 systemctl start transmogrifier-monitor.service
 
+```
+```
+chmod +x /usr/local/bin/transmogrifier-monitor.sh
 ```
 </details>
