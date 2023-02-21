@@ -1,4 +1,4 @@
-# intrasonics_transmogrifier_bash_no_cron
+# intrasonics_transmogrifier_monitoring_bash_no_cron
 
 ## Task:<br>
 Monitor the existing solution. The recently added features make the existing solution expected to behave in the following way: 
