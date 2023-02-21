@@ -23,6 +23,7 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 <br>
 
 <details markdown=1><summary markdown="span">Details</summary>
+
 ``` sh
 #!/bin/bash
 
@@ -46,6 +47,7 @@ chmod +x /usr/local/bin/transmogrifier-monitor.sh
 <br>
 
 <details markdown=1><summary markdown="span">Details</summary>
+
 ```
 #!/bin/bash
 
