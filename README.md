@@ -26,11 +26,6 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 ``` sh
 #!/bin/bash
 
-# Write script to monitor processes and folder contents
-cat > /usr/local/bin/transmogrifier-monitor.sh << EOF
-
-#!/bin/bash
-
 while true; do
   printf "\n%s %s %s\n\n%s\n" "Processes lists for transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "$(ps aux | grep root)" >> /var/log/transmogrifier_process.log
   printf "\n%s %s %s\n\n%s\n" "Flle list of transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "$(ls -la /home/ec2-user/Transmogrified/)" >> /var/log/transmogrifier_files.log
@@ -39,46 +34,16 @@ done
 
 EOF
 ```
-```
-sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh
-```
 </details>
 
-#### 2. Script2 to start the main script1 on a boot
+#### 2. Commands to start the script in the background
 
 
 <details markdown=1><summary markdown="span">Details</summary>
 
 ``` sh
-#!/bin/bash
-
-# Start script on boot
-
-# Create the systemd service file
-cat > /etc/systemd/system/transmogrifier-monitor.service << EOF
-[Unit]
-Description=Transmogrifier Monitor
-
-[Service]
-ExecStart=/usr/local/bin/transmogrifier-monitor.sh
-Restart=always
-User=transmogrifier
-
-[Install]
-WantedBy=multi-user.target
-EOF
-
-# Reload systemd to pick up the new service file
-sudo systemctl daemon-reload
-
-# Enable the service to start on boot
-sudo systemctl enable transmogrifier-monitor.service
-
-# Start the service immediately
-sudo systemctl start transmogrifier-monitor.service
-
-```
-```
 sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh
+
+sudo bash transmogrifier-monitor.sh
 ```
 </details>
