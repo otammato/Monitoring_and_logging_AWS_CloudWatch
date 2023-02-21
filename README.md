@@ -17,7 +17,7 @@ Write a script in the language of your choosing, which will be used to achieve t
 To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch these two scripts:
 
 <br>
-#1. Script
+#### 1. Main script
 <br><br>
 <details markdown=1><summary markdown="span">Details</summary>
 
@@ -36,8 +36,13 @@ done
 EOF
 
 chmod +x /usr/local/bin/transmogrifier-monitor.sh
+```
+#### 2. Secondary cript to start the main script on a boot
+```
+#!/bin/bash
 
-# Start script on boot   
+# Start script on boot
+
 # Create the systemd service file
 cat > /etc/systemd/system/transmogrifier-monitor.service << EOF
 [Unit]
