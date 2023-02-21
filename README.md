@@ -31,7 +31,7 @@ cat > /usr/local/bin/transmogrifier-monitor.sh << EOF
 
 #!/bin/bash
 while true; do
-  ps -ef | grep -v grep | grep transmogrifier >> /var/log/transmogrifier/access.log
+  ps aux | grep transmogrifier >> /var/log/transmogrifier/access.log
   ls -l /path/to/Transmogrified/ >> /var/log/transmogrifier/access.log
   sleep 60
 done
