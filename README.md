@@ -21,6 +21,7 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 #### 1. Main script1
 
 <br>
+
 <details markdown=1><summary markdown="span">Details</summary>
 ``` sh
 #!/bin/bash
@@ -43,6 +44,7 @@ chmod +x /usr/local/bin/transmogrifier-monitor.sh
 #### 2. Script2 to start the main script1 on a boot
 
 <br>
+
 <details markdown=1><summary markdown="span">Details</summary>
 ```
 #!/bin/bash
