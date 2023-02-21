@@ -69,13 +69,13 @@ WantedBy=multi-user.target
 EOF
 
 # Reload systemd to pick up the new service file
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
 # Enable the service to start on boot
-systemctl enable transmogrifier-monitor.service
+sudo systemctl enable transmogrifier-monitor.service
 
 # Start the service immediately
-systemctl start transmogrifier-monitor.service
+sudo systemctl start transmogrifier-monitor.service
 
 ```
 ```
