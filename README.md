@@ -24,6 +24,20 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 ``` sh
 #!/bin/bash
 
+# Write script to monitor processes and folder contents
+cat > /usr/local/bin/transmogrifier-monitor.sh << EOF
+
+#!/bin/bash
+while true; do
+  ps -ef | grep -v grep | grep transmogrifier >> /var/log/transmogrifier/access.log
+  ls -l /path/to/Transmogrified/ >> /var/log/transmogrifier/access.log
+  sleep 60
+done
+EOF
+
+chmod +x /usr/local/bin/transmogrifier-monitor.sh
+
+# Start script on boot   
 # Create the systemd service file
 cat > /etc/systemd/system/transmogrifier-monitor.service << EOF
 [Unit]
