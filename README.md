@@ -49,8 +49,11 @@ done
 <details markdown=1><summary markdown="span">Details</summary>
 
 ``` sh
-sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh
+# This line grants execute permission to the transmogrifier-monitor.sh script, allowing it to be run as a command
+sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh  
 
-sudo bash transmogrifier-monitor.sh &
+# This line runs the transmogrifier-monitor.sh script in the background as a root user using the Bash shell
+sudo bash transmogrifier-monitor.sh &  
+
 ```
 </details>
