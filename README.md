@@ -61,4 +61,32 @@ sudo bash transmogrifier-monitor.sh &
 
 <br>
 
-#### Afterwards, the logs can be set up to be sent to AWS CloudWatch by installing the agent to the controlled machine, for metrics monitoring, visualization and triggering notifications if needed
+#### Afterwards, the logs can be set up to be regularly sent to AWS CloudWatch by installing the agent to the controlled machine, for metrics monitoring, visualization and triggering notifications if needed
+
+<details markdown=1><summary markdown="span">Script</summary>
+<br>
+
+To configure the CloudWatch agent to send the required logs to CloudWatch, follow these steps:
+
+1. SSH into the EC2 instance hosting the servers that will run the Transmogrifier.
+
+2. Download and install the CloudWatch Logs agent on the instance. You can find installation instructions for various operating systems in the AWS documentation.
+
+3. Once installed, open the CloudWatch Logs agent configuration file located at /etc/awslogs/awslogs.conf.
+
+4. Add log files that you want to monitor to the configuration file, specifying the log file location, log format, and destination log group in CloudWatch. Here is an example configuration entry:
+``` sh
+[/var/log/transmogrifier.log]
+datetime_format = %Y-%m-%d %H:%M:%S
+log_stream_name = {instance_id}
+log_group_name = transmogrifier-log-group
+```
+In this example, we're monitoring the /var/log/transmogrifier.log file and sending its contents to a log group named transmogrifier-log-group in CloudWatch. The log_stream_name parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
+
+5. Once you have added all the log files you want to monitor, save the configuration file and restart the CloudWatch Logs agent with the following command:
+
+```
+sudo service awslogs restart
+```
+
+</details>
