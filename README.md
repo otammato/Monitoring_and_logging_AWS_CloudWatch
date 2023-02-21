@@ -81,12 +81,12 @@ sudo rpm -U ./amazon-cloudwatch-agent.rpm
 
 4. Add log files that you want to monitor to the configuration file, specifying the log file location, log format, and destination log group in CloudWatch. Here is an example configuration entry:
 ``` sh
-[/var/log/transmogrifier.log]
+[/var/log/transmogrifier_process.log]
 datetime_format = %Y-%m-%d %H:%M:%S
 log_stream_name = {instance_id}
 log_group_name = transmogrifier-log-group
 ```
-In this example, we're monitoring the /var/log/transmogrifier.log file and sending its contents to a log group named transmogrifier-log-group in CloudWatch. The log_stream_name parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
+In this example, we're monitoring the /var/log/transmogrifier_process.log file and sending its contents to a log group named transmogrifier-log-group in CloudWatch. The log_stream_name parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
 
 5. Once you have added all the log files you want to monitor, save the configuration file and restart the CloudWatch Logs agent with the following command:
 
