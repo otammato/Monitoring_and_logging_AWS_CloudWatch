@@ -18,7 +18,7 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 
 <br>
 
-#### 1. Main script1
+#### 1. Script transmogrifier-monitor.sh to write in intervals to .log files
 
 
 <details markdown=1><summary markdown="span">Details</summary>
