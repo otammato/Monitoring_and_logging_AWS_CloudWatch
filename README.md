@@ -44,6 +44,6 @@ EOF
 ``` sh
 sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh
 
-sudo bash transmogrifier-monitor.sh
+sudo bash transmogrifier-monitor.sh &
 ```
 </details>
