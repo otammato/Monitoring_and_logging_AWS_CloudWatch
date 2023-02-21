@@ -12,11 +12,12 @@ You have been asked to create a solution which monitors the following at regular
 Write a script in the language of your choosing, which will be used to achieve the above. 
 
 
+<br>
+
 ## Solution:
 
 To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch these two scripts:
 
-<br>
 
 #### 1. Script transmogrifier-monitor.sh to write in intervals to .log files
 
