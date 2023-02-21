@@ -21,4 +21,31 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 <br><br>
 <details markdown=1><summary markdown="span">Details</summary>
 
+``` sh
+#!/bin/bash
+
+# Create the systemd service file
+cat > /etc/systemd/system/transmogrifier-monitor.service << EOF
+[Unit]
+Description=Transmogrifier Monitor
+
+[Service]
+ExecStart=/usr/local/bin/transmogrifier-monitor.sh
+Restart=always
+User=transmogrifier
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# Reload systemd to pick up the new service file
+systemctl daemon-reload
+
+# Enable the service to start on boot
+systemctl enable transmogrifier-monitor.service
+
+# Start the service immediately
+systemctl start transmogrifier-monitor.service
+
+```
 </details>
