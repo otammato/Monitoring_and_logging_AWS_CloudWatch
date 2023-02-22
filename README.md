@@ -99,16 +99,21 @@ log_group_name = transmogrifier_demo_files
 ```
 In this example, we're monitoring the /var/log/transmogrifier_process.log file and sending its contents to log groups named transmogrifier_demo_processes and transmogrifier_demo_files in CloudWatch. The log_stream_name parameter will automatically include the instance ID in the log stream name, allowing you to distinguish between logs from different instances.
 
-5. If you are running Amazon Linux 2, start the awslogs service with the following command:
+5. By default, the /etc/awslogs/awscli.conf points to the us-east-1 Region. To push your logs to a different Region, edit the awscli.conf file and specify that Region.
+
+6. If you are running Amazon Linux 2, start the awslogs service with the following command:
 
 ```
 sudo systemctl start awslogsd
 ```
-6. (Optional) Run the following command to start the awslogs service at each system boot:
+7. (Optional) Run the following command to start the awslogs service at each system boot:
 
 ```
 sudo systemctl enable awslogsd.service
 ```
+Note that installing and configuring CloudWatch Logs on an existing Ubuntu Server, CentOS, or Red Hat instance will vary. In more details here:
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
 
 </details>
 
