@@ -95,6 +95,6 @@ sudo service awslogs restart
 ```
 
 </details>
-![image](https://user-images.githubusercontent.com/104728608/220742714-8eb618b6-b40b-411c-9123-53a76aa7be85.png)
+
 
 
