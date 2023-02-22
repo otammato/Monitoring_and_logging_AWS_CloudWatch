@@ -120,5 +120,7 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.h
 
 </details>
 
+#### 4. Creating AWS IAM role to acess CloudWatch and attaching it to EC2 instance.
 
 
+#### 5. The result:
