@@ -32,7 +32,7 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 while true; do  # Start an infinite loop
 
   # Log the list of processes running the transmogrifier command, along with the hostname and current date/time, to a file called transmogrifier_process.log
-  sudo printf "\n%s %s %s\n\n%s\n" "Processes lists for transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "$(ps aux | grep transmogrifier)" >> /var/log/transmogrifier_process.log
+  sudo bash -c "sudo printf '\n%s %s %s\n\n%s\n' 'Processes lists for transmogrifier:' '$(hostname)' '$(date +'%Y-%m-%d %H:%M:%S')' '$(ps aux | grep transmogrifier)' >> /var/log/transmogrifier_process.log"
 
   # Log the list of files in the Transmogrified directory, along with the hostname and current date/time, to a file called transmogrifier_files.log
   sudo printf "\n%s %s %s\n\n%s\n" "Flle list of transmogrifier:" "$(hostname)" "$(date +"%Y-%m-%d %H:%M:%S")" "$(ls -la /home/transmogrifier/Transmogrified/)" >> /var/log/transmogrifier_files.log
