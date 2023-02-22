@@ -124,3 +124,25 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.h
 
 
 #### 5. The result:
+<img width="916" alt="Screenshot 2023-02-22 at 22 26 39" src="https://user-images.githubusercontent.com/104728608/220776238-646d4958-9d7c-47bd-8c57-84cc40cd5680.png">
+<img width="1196" alt="Screenshot 2023-02-22 at 17 14 05" src="https://user-images.githubusercontent.com/104728608/220776248-c4874465-5852-4fcf-a305-208ecd2becc8.png">
+<img width="421" alt="Screenshot 2023-02-22 at 20 31 25" src="https://user-images.githubusercontent.com/104728608/220776250-8e742eeb-de51-4674-9ed8-a1e36afa29f7.png">
+<img width="918" alt="Screenshot 2023-02-22 at 22 28 50" src="https://user-images.githubusercontent.com/104728608/220776255-150e4fe7-0384-4522-bbef-66d47f28dfc7.png">
+<img width="924" alt="Screenshot 2023-02-22 at 22 14 46" src="https://user-images.githubusercontent.com/104728608/220776257-99044f53-2226-48b3-a596-3c652c93643e.png">
+<img width="899" alt="Screenshot 2023-02-22 at 22 30 02" src="https://user-images.githubusercontent.com/104728608/220776258-8d02d3f9-b474-4e79-86f2-7233c0bc5fa0.png">
+<img width="931" alt="Screenshot 2023-02-22 at 22 24 50" src="https://user-images.githubusercontent.com/104728608/220776263-f8a3391d-43d0-4372-9192-8c43fc1a4dd3.png">
+<img width="533" alt="Screenshot 2023-02-22 at 22 34 38" src="https://user-images.githubusercontent.com/104728608/220776269-509fe0c2-6316-4b36-af25-dfa7b4caa752.png">
+<img width="1072" alt="Screenshot 2023-02-22 at 16 54 30" src="https://user-images.githubusercontent.com/104728608/220776271-25df14e6-c862-4df9-8adc-30d8a57ae449.png">
+<img width="889" alt="Screenshot 2023-02-22 at 16 27 56" src="https://user-images.githubusercontent.com/104728608/220776278-68a5f21e-c4b4-4a2f-a68b-d4780f57acbc.png">
+<img width="738" alt="Screenshot 2023-02-22 at 17 11 07" src="https://user-images.githubusercontent.com/104728608/220776280-4ad52ccb-d984-4e75-b641-f5bba67c26b3.png">
+<img width="191" alt="Screenshot 2023-02-22 at 16 21 44" src="https://user-images.githubusercontent.com/104728608/220776285-27e01a96-169f-44a6-b45c-24604b9b8490.png">
+<img width="274" alt="Screenshot 2023-02-22 at 16 20 17" src="https://user-images.githubusercontent.com/104728608/220776287-585f9964-93c0-49b9-90d4-cb8696be0d7a.png">
+<img width="285" alt="Screenshot 2023-02-22 at 16 15 55" src="https://user-images.githubusercontent.com/104728608/220776289-91311d7e-9fa0-4fdc-8fed-7eb5f92a793d.png">
+<img width="1229" alt="Screenshot 2023-02-22 at 16 00 24" src="https://user-images.githubusercontent.com/104728608/220776290-eb82a168-57bd-42d5-a6e2-4e3f0e046a5a.png">
+<img width="1238" alt="Screenshot 2023-02-22 at 15 47 18" src="https://user-images.githubusercontent.com/104728608/220776294-7d73a986-3e88-4b77-8efb-d750969fa90a.png">
+<img width="1074" alt="Screenshot 2023-02-22 at 15 46 44" src="https://user-images.githubusercontent.com/104728608/220776307-baed37eb-1e62-488e-840c-363688bbceb3.png">
+<img width="1204" alt="Screenshot 2023-02-22 at 15 44 30" src="https://user-images.githubusercontent.com/104728608/220776309-f6091d7f-9d44-4069-872f-427af098c9f5.png">
+<img width="1036" alt="Screenshot 2023-02-22 at 15 41 41" src="https://user-images.githubusercontent.com/104728608/220776314-cd01c708-c7ce-4ccf-800f-24849c7e7e4f.png">
+<img width="868" alt="Screenshot 2023-02-22 at 16 03 00" src="https://user-images.githubusercontent.com/104728608/220776317-e6bb667a-7dc6-4f7f-9544-9641fe10e086.png">
+<img width="1358" alt="Screenshot 2023-02-17 at 11 16 03" src="https://user-images.githubusercontent.com/104728608/220776323-ee0a9260-e10a-42e8-8eed-214f4c03b387.png">
+<img width="1110" alt="Screenshot 2023-02-15 at 19 40 32" src="https://user-images.githubusercontent.com/104728608/220776327-3c395b17-2fbc-47b4-ae5e-6d656aaa7171.png">
