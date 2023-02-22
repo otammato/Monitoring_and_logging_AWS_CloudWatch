@@ -144,10 +144,11 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.h
 <img width="924" alt="Screenshot 2023-02-22 at 22 14 46" src="https://user-images.githubusercontent.com/104728608/220776257-99044f53-2226-48b3-a596-3c652c93643e.png">
 <img width="899" alt="Screenshot 2023-02-22 at 22 30 02" src="https://user-images.githubusercontent.com/104728608/220776258-8d02d3f9-b474-4e79-86f2-7233c0bc5fa0.png">
 <img width="931" alt="Screenshot 2023-02-22 at 22 24 50" src="https://user-images.githubusercontent.com/104728608/220776263-f8a3391d-43d0-4372-9192-8c43fc1a4dd3.png">
-<img width="533" alt="Screenshot 2023-02-22 at 22 34 38" src="https://user-images.githubusercontent.com/104728608/220776269-509fe0c2-6316-4b36-af25-dfa7b4caa752.png">
+
 <img width="1072" alt="Screenshot 2023-02-22 at 16 54 30" src="https://user-images.githubusercontent.com/104728608/220776271-25df14e6-c862-4df9-8adc-30d8a57ae449.png">
 <img width="889" alt="Screenshot 2023-02-22 at 16 27 56" src="https://user-images.githubusercontent.com/104728608/220776278-68a5f21e-c4b4-4a2f-a68b-d4780f57acbc.png">
 <img width="738" alt="Screenshot 2023-02-22 at 17 11 07" src="https://user-images.githubusercontent.com/104728608/220776280-4ad52ccb-d984-4e75-b641-f5bba67c26b3.png">
+<img width="533" alt="Screenshot 2023-02-22 at 22 34 38" src="https://user-images.githubusercontent.com/104728608/220776269-509fe0c2-6316-4b36-af25-dfa7b4caa752.png">
 
 
 
