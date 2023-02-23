@@ -48,7 +48,7 @@ done
 #### 2. Commands to start the script in the background
 
 
-<details markdown=1><summary markdown="span">Details</summary>
+<details markdown=1><summary markdown="span">Start in the background for testing</summary>
 
 ``` sh
 # This line grants execute permission to the transmogrifier-monitor.sh script, allowing it to be run as a command
@@ -60,6 +60,57 @@ sudo bash transmogrifier-monitor.sh &
 ```
 </details>
 
+<details markdown=1><summary markdown="span">Start as "systemd" (daemon) service</summary>
+
+1. Create a service file in the /etc/systemd/system/ directory. You can use any name you like for the file, but it must end with the .service extension. For example, you can create a file called transmogrifier.service using the following command:
+``` sh
+sudo vi /etc/systemd/system/transmogrifier.service
+```
+2. It sets the description for the service, specifies that it should start after the network is available, and sets the ExecStart command to run the /home/ec2-user/script_main.sh Bash script with elevated privileges using the root user.
+
+The Restart option ensures that the service will be restarted if it crashes or stops running for any reason, and the WantedBy option specifies that the service should be enabled for all users who have a multi-user.target session.
+
+```
+[Unit]
+Description=Transmogrifier Logging Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /home/ec2-user/script_main.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+```
+3. Save and close the file. ":wq!"
+4. Reload systemctl to read the new service file:
+
+```
+sudo systemctl daemon-reload
+```
+5. Start the service:
+```
+sudo systemctl start transmogrifier.service
+```
+This will start the service and the script will run indefinitely in the background.
+6. Enable the service to start automatically at boot time:
+
+```
+sudo systemctl enable transmogrifier.service
+```
+7. You can check the status of the service using the following command:
+```
+sudo systemctl status transmogrifier.service
+```
+8. You can check the status of all running daemons using the following commands:
+```
+sudo systemctl list-units
+
+sudo systemctl list-unit-files 
+```
+
+</details>
 <br>
 
 ## Representation:
