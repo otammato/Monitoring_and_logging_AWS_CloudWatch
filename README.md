@@ -1,6 +1,6 @@
 # Two-tier monitoring service
 
-[ Monitoring Linux Bash AWS_Cloudwatch ] Create a CI/CD pipeline with GitHub Actions to build the app, then built and push the Docker image to DockerHub
+[ Monitoring Linux Bash AWS_Cloudwatch ]  Create a solution to monitor a user's folder and processes launched on a server.
 
 ## Task:<br>
 Monitor the existing solution. The recently added features make the existing solution expected to behave in the following way: 
