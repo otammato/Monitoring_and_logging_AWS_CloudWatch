@@ -81,7 +81,7 @@ Description=Transmogrifier Logging Service
 After=network.target
 
 [Service]
-ExecStart=/bin/bash /home/ec2-user/script_main.sh
+ExecStart=/bin/bash /usr/local/bin/transmogrifier-monitor.sh 
 Restart=always
 User=root
 
