@@ -190,7 +190,7 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.h
 
 <br>
 
-#### 5. Result:
+## Result:
 
 <img width="1024" alt="Screenshot 2023-02-22 at 23 24 02" src="https://user-images.githubusercontent.com/104728608/220786281-1cfdb499-0c22-45d6-9721-85f43d308217.png">
 
