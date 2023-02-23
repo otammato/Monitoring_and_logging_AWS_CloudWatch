@@ -60,9 +60,14 @@ sudo bash transmogrifier-monitor.sh &
 ```
 </details>
 
-<details markdown=1><summary markdown="span">Start as "systemd" (daemon) service for production (starts automatically at a system boot time)</summary>
+<details markdown=1><summary markdown="span">Start as a "systemd" (daemon) service for production (starts automatically at a system boot time)</summary>
 
 <br>
+
+0. Assign the executable privileges to your script
+```
+sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh  
+```
 
 1. Create a service file in the /etc/systemd/system/ directory. You can use any name you like for the file, but it must end with the .service extension. For example, you can create a file called transmogrifier.service using the following command:
 ``` sh
