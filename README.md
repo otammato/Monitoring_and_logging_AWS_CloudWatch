@@ -21,6 +21,7 @@ To monitor the running processes and the contents of the Transmogrified/ folder 
 
 #### 1. Script transmogrifier-monitor.sh to write in intervals to .log files
 
+Please note that sudo priveleges are only granted for the smooth testing. In production they should be adjusted accordingly.
 
 <details markdown=1><summary markdown="span">Details</summary>
 
