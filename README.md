@@ -14,7 +14,7 @@ Write a script in the language of your choosing, which will be used to achieve t
 
 <br>
 
-## Solution:
+## Application layer:
 
 To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch this script:
 
@@ -119,7 +119,7 @@ sudo systemctl list-unit-files
 </details>
 <br>
 
-## Representation:
+## Representation layer:
 
 #### 3. Setting up the logs to be regularly sent to AWS CloudWatch by installing the CloudWatch agent to the controlled machine, for metrics monitoring, visualization and triggering notifications if needed
 
