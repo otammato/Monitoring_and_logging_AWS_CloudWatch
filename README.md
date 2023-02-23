@@ -64,7 +64,7 @@ sudo bash transmogrifier-monitor.sh &
 
 <br>
 
-0. Assign the executable privileges to your script
+0. Grant the executable privileges to your script
 ```
 sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh  
 ```
@@ -73,7 +73,7 @@ sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh
 ``` sh
 sudo vi /etc/systemd/system/transmogrifier.service
 ```
-2. Paste this in transmogrifier.service file. It sets the description for the service, specifies that it should start after the network is available, and sets the ExecStart command to run the /home/ec2-user/script_main.sh Bash script with elevated privileges using the root user. The Restart option ensures that the service will be restarted if it crashes or stops running for any reason, and the WantedBy option specifies that the service should be enabled for all users who have a multi-user.target session.
+2. Paste this in transmogrifier.service file. It sets the description for the service, specifies that it should start after the network is available, and sets the ExecStart command to run the /usr/local/bin/transmogrifier-monitor.sh Bash script with elevated privileges using the root user. The Restart option ensures that the service will be restarted if it crashes or stops running for any reason, and the WantedBy option specifies that the service should be enabled for all users who have a multi-user.target session.
 
 ```
 [Unit]
