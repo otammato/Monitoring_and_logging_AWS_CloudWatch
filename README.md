@@ -18,10 +18,9 @@ Write a script in the language of your choosing, which will be used to achieve t
 
 To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch this script:
 
+Please note that sudo priveleges are only granted for the smooth testing. In production they should be adjusted accordingly.
 
 #### 1. Script transmogrifier-monitor.sh to write in intervals to .log files
-
-Please note that sudo priveleges are only granted for the smooth testing. In production they should be adjusted accordingly.
 
 <details markdown=1><summary markdown="span">Details</summary>
 
