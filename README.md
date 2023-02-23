@@ -193,6 +193,8 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.h
 
 ## Result:
 
+<img width="1024" alt="Screenshot 2023-02-23 at 13 26 54" src="https://user-images.githubusercontent.com/104728608/220920574-ec4bdd8e-f049-4550-abdb-68e0c2816d89.png">
+
 <img width="1024" alt="Screenshot 2023-02-22 at 23 24 02" src="https://user-images.githubusercontent.com/104728608/220786281-1cfdb499-0c22-45d6-9721-85f43d308217.png">
 
 <img width="1024" alt="Screenshot 2023-02-22 at 22 51 09" src="https://user-images.githubusercontent.com/104728608/220778614-9de1ab07-db85-4865-997c-2ffe4ce4c51b.png">
