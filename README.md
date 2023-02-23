@@ -94,6 +94,7 @@ sudo systemctl daemon-reload
 sudo systemctl start transmogrifier.service
 ```
 This will start the service and the script will run indefinitely in the background.
+
 6. Enable the service to start automatically at boot time:
 
 ```
