@@ -14,7 +14,7 @@ Write a script in the language of your choosing, which will be used to achieve t
 
 <br>
 
-<img width="1024" alt="Screenshot 2023-02-23 at 16 52 00" src="https://user-images.githubusercontent.com/104728608/220975823-20fb01a1-b504-4f9b-9873-795e88aec6a6.png">
+<img width="1024" alt="Screenshot 2023-02-23 at 17 21 31" src="https://user-images.githubusercontent.com/104728608/220982768-3c0cc878-277e-45d2-a582-d652ee5a65fa.png">
 
 <br>
 
