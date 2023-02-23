@@ -22,7 +22,7 @@ Write a script in the language of your choosing, which will be used to achieve t
 
 ## Application layer:
 
-To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch this script:
+To monitor the running processes and the contents of the Transmogrified/ folder as described in the scenario, you can launch the following script:
 
 Please note that sudo priveleges are only granted for the smooth testing. In production they should be adjusted accordingly.
 
