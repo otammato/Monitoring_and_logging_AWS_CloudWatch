@@ -1,5 +1,7 @@
 # Two-tier monitoring service
 
+[ Monitoring Linux Bash AWS Cloudwatch ] Create a CI/CD pipeline with GitHub Actions to build the app, then built and push the Docker image to DockerHub
+
 ## Task:<br>
 Monitor the existing solution. The recently added features make the existing solution expected to behave in the following way: 
 -  Independent processes will be started up to serve individual client requests. These should all be started by the transmogrifier user. 
