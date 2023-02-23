@@ -60,7 +60,7 @@ sudo bash transmogrifier-monitor.sh &
 ```
 </details>
 
-<details markdown=1><summary markdown="span">Start as "systemd" (daemon) service</summary>
+<details markdown=1><summary markdown="span">Start as "systemd" (daemon) service for production (starts automatically with a system load)</summary>
 
 <br>
 
