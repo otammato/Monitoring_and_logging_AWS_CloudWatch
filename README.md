@@ -73,7 +73,7 @@ done
 sudo chmod +x /usr/local/bin/transmogrifier-monitor.sh  
 
 # This line runs the transmogrifier-monitor.sh script in the background as a root user using the Bash shell
-sudo bash transmogrifier-monitor.sh &  
+sudo nohup ./transmogrifier-monitor.sh &  
 
 ```
 </details>
