@@ -1,4 +1,4 @@
-# Two-tier monitoring service
+# Logging and monitoring service with AWS Cloudwatch
 
 [ Monitoring Linux Bash AWS_Cloudwatch ]  Create a solution to monitor a user's folder and processes launched on a server.
 
