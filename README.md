@@ -1,4 +1,4 @@
-# Logging and monitoring service with AWS Cloudwatch
+# Logging and monitoring a service with AWS Cloudwatch
 
 [ Monitoring Linux Bash AWS_Cloudwatch ]  Create a solution to monitor a user's folder and processes launched on a server.
 
